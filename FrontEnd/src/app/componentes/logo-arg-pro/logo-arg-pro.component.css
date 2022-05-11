@@ -1,0 +1,36 @@
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoArgPro {
+    width: 150px;
+}
+
+img {
+    width: 50px;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+button {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-width: medium;
+}
+
+/*Para ventanas chicas*/
+@media (max-width: 575px) {
+    .conteiner {
+        flex-direction: column;
+        align-items: center;
+        margin: 00.5em;
+    }
+    button {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}  
+
+

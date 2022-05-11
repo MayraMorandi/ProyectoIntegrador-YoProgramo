@@ -1,0 +1,9 @@
+.row {
+    background-color: rgb(174, 219, 204);
+    padding:20px;
+    color:rgb(56, 82, 72)
+}
+
+h1 {
+    text-transform:uppercase;
+}

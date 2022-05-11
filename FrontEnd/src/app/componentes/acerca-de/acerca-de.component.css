@@ -1,0 +1,44 @@
+.row {
+    padding: 20px;
+    color: #213c46;
+}
+
+div {
+    background-color: #E6DDC4;
+    text-align: center;
+}
+
+h1 {
+    text-transform:uppercase;
+}
+
+#nombre {
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+@media (min-width: 576px) {
+    #fotoperfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px goldenrod;
+        left: 2%;
+        top: 340px;
+    }
+}
+
+@media (max-width: 575px) {
+    #fotoperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(32, 218, 131);
+        left: 33%;
+        top: 500px;
+    }
+    #nombre {
+        margin-top: 15%;
+    }
+}
+
